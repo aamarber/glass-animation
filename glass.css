@@ -1,0 +1,15 @@
+#water{
+    animation: fill-water 10s linear infinite;
+}
+
+@keyframes fill-water {
+    0%{
+        height: 0;
+    }
+    
+    /* Not 100% to make the "emptying" effect */
+    90%{
+        height: 110;
+        y:5;
+    }
+}
